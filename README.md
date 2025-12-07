@@ -23,7 +23,7 @@ This makes EEG-based identification a strong candidate for future identity verif
 
 The dataset used in training the model is:
 
-**RIGHT_ONLY_full_dataset1.csv**
+**EEG_classification_data.csv**
 
 Each row in the dataset represents one EEG trial and includes:
 
@@ -108,7 +108,7 @@ Performance visualizations (confusion matrix & training curves) are in:
 project/
 │
 ├── model.ipynb                # Training & evaluation notebook
-├── RIGHT_ONLY_full_dataset1.csv
+├── EEG_classification_data.csv
 ├── eeg_model.h5               # Saved trained model
 ├── README.md
 └── images/                    # Architecture diagrams & plots
